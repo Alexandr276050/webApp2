@@ -1,0 +1,16 @@
+﻿@page
+@model WebApplication2.Pages.MoneysModel
+@{
+    Layout = "_Layout";
+}
+
+<form method = "Post">
+    <p>Пароль :
+        <input type = "text" name="password"/>
+    </p>
+    <p>Тенге:
+        <input type = "text" name="tenge"/>
+    </p>
+    <input type = "submit" value="Send"/>
+</form>
+<h2>@Model.Message</h2>
